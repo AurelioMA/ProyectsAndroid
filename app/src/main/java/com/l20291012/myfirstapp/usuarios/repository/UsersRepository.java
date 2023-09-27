@@ -10,10 +10,10 @@ public class UsersRepository {
 
     private UsersRepository(){
         registeredUsers = new HashMap<String, HashMap < String, Usuario> >();
-        Usuario user1 = new Usuario("Didian", "1234", "Vivian", 27, 'M', "vivian@gmail.com");
-        Usuario user2 = new Usuario("Dani", "1234", "Daniela", 22, 'M', "daniela@gmail.com");
-        Usuario user3 = new Usuario("Aurelioo", "1234", "Aurelio", 22, 'H', "aurelio@gmail.com");
-        Usuario user4 = new Usuario("Clau", "1234", "Claudia", 22, 'M', "clau@gmail.com");
+        Usuario user1 = new Usuario("didian", "1234", "Vivian", 27, 'M', "vivian@gmail.com");
+        Usuario user2 = new Usuario("dani", "1234", "Daniela", 22, 'M', "daniela@gmail.com");
+        Usuario user3 = new Usuario("aurelio", "1234", "Aurelio", 22, 'H', "aurelio@gmail.com");
+        Usuario user4 = new Usuario("clau", "1234", "Claudia", 22, 'M', "clau@gmail.com");
 
 
         registeredUsers.put(user1.getUsuario(), new HashMap< String, Usuario>());
